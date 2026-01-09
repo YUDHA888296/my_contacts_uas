@@ -1,0 +1,36 @@
+name: my_contacts_uas
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Saya set range agar aman untuk semua versi Flutter baru
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.1
+  url_launcher: ^6.1.14
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # Library untuk mengganti ikon otomatis
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# Konfigurasi Ikon Aplikasi
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png" # Pastikan file gambar ada di sini
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff" # Background putih
+  adaptive_icon_foreground: "assets/icon/icon.png"
