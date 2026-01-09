@@ -1,6 +1,8 @@
 # my_contacts_uas
 
-A new Flutter project.
+NAMA: YUDHA MAULANA
+NPM: 23670157
+KELAS: 5E
 
 ## Getting Started
 
